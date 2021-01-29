@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+.text-light {color: @white;}
+
+.label {
+	background-color: @green2;
+	border-radius: 3px;
+	padding: 5px 12px;
+	color: @white;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+	background-color: @blue2;
+	border-radius: 20px;
+	border: none;
+	color: @white;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 14px;
+	line-height: 20px;
+	cursor: pointer;
+
+	.button-text {
+		font-style: normal;
+		font-weight: 900;
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.button-icon,
+	.button-price {
+		margin-right: 10px;
+
+		&:last-child {margin-right: 0; margin-left: 10px;}
+	}
+}
+
+.slider {
+	padding-top: 90px;
+	padding-bottom: 110px;
+}
+
+
+.swiper-button-prev,
+.swiper-button-next {
+	
+	&:after {
+		display: none !important;
+	}
+}
+
+
+
+
+
+/* ------------------------ Мобильная версия ------------------------ */
+@media all and (max-width: 1024px) {
+
+	
+
+} // Конец запроса

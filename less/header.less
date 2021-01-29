@@ -1,0 +1,45 @@
+.container {
+	padding: 15px 0px;
+
+	.row {
+		.col-6 {
+			nav {
+				.navigation {
+					list-style: none;
+				    padding: 0px;
+    				margin-bottom: 0;
+					.navigation-item {
+
+						.navigation-link {
+							color: @gray2; 
+							text-decoration: none; 
+							font-family: 'Lato', sans-serif;
+							font-style: normal;
+							font-weight: 900;
+							font-size: 14px;
+							line-height: 20px;
+							text-transform: uppercase;
+							letter-spacing: 0.5px;
+						}
+					}
+				}
+			}
+		}
+
+		.col-2 {
+			.button {
+			}
+		}
+	}
+}
+
+
+/* ------------------------ Мобильная версия ------------------------ */
+@media all and (max-width: 1024px) {
+
+	header.container {
+		padding: 10px 4%;
+		margin: 0;
+	}
+
+} // Конец запроса
